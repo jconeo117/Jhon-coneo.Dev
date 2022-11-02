@@ -1,0 +1,35 @@
+[
+    {
+        "name":"PI-dogs",
+        "descripcion":"Aplicacion web desarrollada en el bootcamp de soy henry, con el proposito de poner aprueba los conocimientos adquiridos durante la etapa de bootcamp. consumiendo la api 'the dogs api' para pedir y renderizar la informacion que proporciona la api ",
+        "tecnologies":{
+            "front-end":["React", "React-router-dom", "Redux", "Axios"],
+            "back-end":["Axios", "Node js", "express", "sequelize"]
+        },
+        "repositorie":"https://github.com/jconeo117/Pi-Dogs",
+        "image":"https://raw.githubusercontent.com/jconeo117/Pi-Dogs/main/dog.png",
+        "deploy":"no tiene"
+    },
+    {
+        "name":"snor inn app",
+        "descripcion":"Proyecto grupal realizado como instancia evaluativa en el bootcamp de desarrollo web de Soy Henry. Esta Aplicación de Página Única (SPA) desarrollada con metodologías ágiles de software (SCRUM) ofrece la posibilidad de conectar a todas aquellas personas que tengan un espacio o lugar destinado a albergar turistas(ya sean: casas, hoteles, hostales, bed and breakfast...), y aquellos turistas que quieran encontrar su mejor lugar para descansar. ",
+        "tecnologies":{
+            "front-end":["React", "React-router-dom", "Redux toolkit", "Axios", "Typescript", "Bootstrap", "Stripe"],
+            "back-end":["Axios", "Node js", "jsonwebtoken", "cloudinary", "express", "mongoose", "google-auth-library", "stripe"]
+        },
+        "repositorie":"https://github.com/MarquezE92/SnorInn-App",
+        "image":"https://raw.githubusercontent.com/MarquezE92/SnorInn-App/main/client/src/Images/snorInn.PNG",
+        "deploy":"https://snor-inn.vercel.app/"
+    },
+    {
+        "name":"my portfolio",
+        "descripcion":"portafolio virtual con el prosito de dar a conocer informacion sobre mi, los proyectos en los que trabajo, lenguajes y tecnologias que manejo y ser un puente para poder contactar con mi persona",
+        "tecnologies":{
+            "front-end":["React"],
+            "back-end":[]
+        },
+        "repositorie":"https://github.com/jconeo117/my-portfolio",
+        "image":"",
+        "deploy":"no tiene"
+    }
+]

@@ -5,6 +5,7 @@ import { Experience } from "../components/experience";
 export const Exp_education =()=>{
     return(
         <div>
+            <h2>Curriculum</h2>
             <Education/>
             <Experience/>
         </div>

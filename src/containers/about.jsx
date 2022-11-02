@@ -9,7 +9,7 @@ export const About =()=>{
         <>
             <h2>Sobre Mí</h2>
             <p>
-                <span>Hola, soy Jhon Coneo Hernandez.</span> Desarrollador web fullstack jr. ¡Con ánimo y muchas ganas de seguir aprendiendo!</p>
+                <span>Hola, soy Jhon Coneo Hernandez.</span> Desarrollador web fullstack jr. ¡Con ánimo y muchas ganas de seguir aprendiendo! Soy estudiante de ingeniería informática y egresado del bootcamp de soy henry</p>
             <div>
                 <Personal/>
             </div>

@@ -4,16 +4,16 @@ import { NavBar } from "../components/navbar";
 
 export const Header =()=>{
     return (
-        <>
-        <div class="logo">
-            <a href="#">Jhon.DEV</a>
-        </div>
-
+        <div className="contenedor-header">
+        <header>
+            <div className="logo">
+                <a href="#">Jhon.DEV</a>
+            </div>
             <NavBar/>
-            
-        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
-                <i class="fa-solid fa-bars"></i> 
-        </div>
-        </>
+            <div className="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i className="fa-solid fa-bars" /> 
+            </div>
+        </header>
+      </div>
     )
 }
