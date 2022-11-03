@@ -1,40 +1,40 @@
 import React from "react";
+import style from '../styles/hobies.module.css'
 
 export const Hobbies =()=>{
     return(
-        <div class="col">
-                    <h3>Hobbies</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>MANGA</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
-                        </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-computer"></i>
-                            <span>PROGRAMACION</span>
-                        </div>
-                        
-                    </div>
-                </div>
+        <div className={style.col}>
+        <h3>Hobbies</h3>
+        <div className={style.contenedor_intereses}>
+          <div className={style.interes}>
+            <i className="fa-solid fa-gamepad" />
+            <span>JUEGOS</span>
+          </div>
+          <div className={style.interes}>
+            <i className="fa-solid fa-headphones" />
+            <span>MUSICA</span>
+          </div>
+          <div className={style.interes}>
+            <i className="fa-solid fa-plane" />
+            <span>VIAJAR</span>
+          </div>
+          <div className={style.interes}>
+            <i className="fa-solid fa-person-hiking" />
+            <span>DEPORTE</span>
+          </div>
+          <div className={style.interes}>
+            <i className="fa-solid fa-book" />
+            <span>MANGA</span>
+          </div>
+          <div className={style.interes}>
+            <i className="fa-solid fa-car" />
+            <span>AUTOS</span>
+          </div>
+          <div className={style.interes}>
+            <i className="fa-solid fa-computer" />
+            <span>WEB DEV</span>
+          </div>
+        </div>
+      </div>
     )
 }

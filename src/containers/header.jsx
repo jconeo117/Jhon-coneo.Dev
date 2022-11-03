@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavBar } from "../components/navbar";
-
+import style from '../styles/header.module.css'
+import { useRef } from "react";
 
 export const Header =()=>{
+    const [click, setClick] = useState(false)
+
+	const showNavbar = () => {
+		setClick(!click)
+	};
     return (
-        <div className="contenedor-header">
+        <div className={style.contenedor_header}>
         <header>
-            <div className="logo">
+            <div className={style.logo}>
                 <a href="#">Jhon.DEV</a>
             </div>
-            <NavBar/>
-            <div className="nav-responsive" onclick="mostrarOcultarMenu()">
+            <NavBar click={click}/>
+            <div className={style.nav_responsive} onClick={showNavbar}>
                 <i className="fa-solid fa-bars" /> 
             </div>
         </header>

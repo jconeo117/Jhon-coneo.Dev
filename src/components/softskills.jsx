@@ -1,39 +1,42 @@
 import React from "react";
-
+import style from '../styles/tech.module.css'
 
 
 export const SoftSkills =()=>{
     return(
-        <div class="col">
-                    <h3>Soft Skills</h3>
-
-                    <div class="skill">
-                        <span>Cooperación</span>
-                    </div>
-                    <div class="skill">
-                        <span>Comunicación</span>
-                    </div>
-                    <div class="skill">
-                        <span>Sociabilidad</span>
-                    </div>
-                    <div class="skill">
-                        <span>Hablar en público</span>
-                    </div>
-                    <div class="skill">
-                        <span>Escucha activa</span>
-                    </div>
-                    <div class="skill">
-                        <span>Liderazgo de equipos</span>
-                    </div>
-                    <div class="skill">
-                        <span>Resolución de problemas</span>
-                    </div>
-                    <div class="skill">
-                        <span>Trabajo en equipo</span>
-                    </div>
-                    <div class="skill">
-                        <span>Desarrollo personal</span>
-                    </div>
-                </div>
+        <>
+            <h2 className={style.h2}>Soft Skills</h2>
+        <div className={style.col}>
+            <ul>
+                <li className="skill">
+                    <span>Cooperación</span>
+                </li>
+                <li className="skill">
+                    <span>Comunicación</span>
+                </li>
+                <li className="skill">
+                    <span>Sociabilidad</span>
+                </li>
+                <li className="skill">
+                    <span>Hablar en público</span>
+                </li>
+                <li className="skill">
+                    <span>Escucha activa</span>
+                </li>
+                <li className="skill">
+                    <span>Liderazgo de equipos</span>
+                </li>
+                <li className="skill">
+                    <span>Resolución de problemas</span>
+                </li>
+                <li className="skill">
+                    <span>Trabajo en equipo</span>
+                </li> 
+                <li className="skill">
+                    <span>Desarrollo personal</span>
+                </li>
+            </ul>
+        </div>
+        </>
     )
 }

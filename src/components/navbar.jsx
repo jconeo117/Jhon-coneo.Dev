@@ -1,10 +1,10 @@
 import React from "react";
+import style from '../styles/navbar.module.css'
 
-
-export const NavBar =()=>{
+export const NavBar =({click})=>{
     return (
         <>
-        <nav id="nav">
+        <nav id="nav" className={click ? `${style.responsive}`: null}>
             <ul>
                 <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
                 <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
