@@ -1,0 +1,48 @@
+.col{
+    width: 50%;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1.5fr);
+}
+
+
+.h2{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin:  0 40px 25px;
+}
+
+
+.col .list_container ul{
+    grid-column: 2;
+}
+
+.col ul li{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 4px;
+}
+.skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.skill > i{
+    font-size: 40px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:700px){
+    .h2{
+        display: block;
+    }
+    .col{
+        width: auto;
+    }
+    .col .list_container ul{
+        grid-template-columns: repeat(3, 1,5fr);
+    }
+}

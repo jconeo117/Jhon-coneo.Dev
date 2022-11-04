@@ -1,0 +1,56 @@
+.col
+{
+    width: 50%;
+}
+.col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.col ul{
+    list-style: none;
+}
+.col ul li{
+    margin: 12px 0;
+}
+.col ul li strong{
+    display: inline-block;
+    color: #1cb62b;
+    width: 130px;
+}
+.col ul li span{
+    background-color: #1cb62b;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.col .contenedor_intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col .contenedor_intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.col .contenedor_intereses .interes:hover{
+    background-color: #1cb62b;
+}
+.col .contenedor_intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width:700px){
+
+   .col{
+        width: fit-content;
+    }
+}

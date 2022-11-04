@@ -1,12 +1,12 @@
-import './App.css';
-import {Header} from './containers/header' 
-import {Inicio} from './containers/inicio'
-import {About} from './containers/about'
-import {Skills} from './containers/skills'
-import {Expeducation} from './containers/exp_education'
-import {Proyectos} from './containers/proyects'
-import {Contac} from './containers/contact'
-import {Footer} from './containers/footer'
+
+import {Header} from './containers/header/header' 
+import {Inicio} from './containers/inicio/inicio'
+import {About} from './containers/about/about'
+import {Skills} from './containers/skills/skills'
+import {Expeducation} from './containers/curriculum/curriculum'
+import {Proyectos} from './containers/proyects/proyects'
+import {Contac} from './containers/contact/contact'
+import {Footer} from './containers/footer/footer'
 
 function App() {
   return (
