@@ -5,6 +5,22 @@ import style from './about.module.css'
 
 
 export const About =()=>{
+
+    const onButtonClick = () => {
+        // using Java Script method to get PDF file
+        fetch('Resume-Jhon-Coneo-Hernandez.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'Curriculum.pdf';
+                alink.click();
+            })
+        })
+    }
+
     return(
         <section id="sobremi" className={style.sobremi}>
             <div className={style.contenido_seccion}>
@@ -17,7 +33,7 @@ export const About =()=>{
             
                     <Hobbies/>
                 </div>
-                <button>
+                <button onClick={onButtonClick}>
                     Descargar CV <i class="fa-solid fa-download"></i>
                     <span className={style.overlay}></span>
                 </button>
