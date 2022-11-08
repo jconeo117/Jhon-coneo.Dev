@@ -9,7 +9,7 @@
     border-radius: 10px;
     background-color: #1e2326;
     display: inline-flex; 
-    margin: 20px;
+    margin-bottom: 40px;
     box-shadow: rgba(0, 0, 0, 0.295) 0px 0px 10px ;
 }
 
@@ -30,6 +30,8 @@
 
     .proyecto{
         max-width: 100%;
+        flex-direction: column;
+        margin: 0px;
     }
     .proyecto img{
     width: 100%;

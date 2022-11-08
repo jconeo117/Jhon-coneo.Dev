@@ -13,6 +13,7 @@ export const Contact =()=>{
         emailjs.sendForm(api.SERVICE_ID, api.TEMPLATE_ID, form.current, api.YOUR_PUBLIC_KEY)
         .then((result) => {
             console.log(result.text);
+            alert('el correo ha sido enviado con exito')
         }, (error) => {
             console.log(error.text);
         });
